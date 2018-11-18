@@ -187,11 +187,93 @@
         "owner": "internal-data-bridge"
       }
     },
+    "ad721324-96c1-5715-ac8d-3f362695eee0": {
+      "resolve": "/Users/jleatham/Documents/Programming/gatsby/gatsby-hello-world-v2/node_modules/gatsby-plugin-typography",
+      "id": "ad721324-96c1-5715-ac8d-3f362695eee0",
+      "name": "gatsby-plugin-typography",
+      "version": "2.2.1",
+      "pluginOptions": {
+        "plugins": [],
+        "pathToConfigModule": "src/utils/typography.js"
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/jleatham/Documents/Programming/gatsby/gatsby-hello-world-v2/node_modules/gatsby-plugin-typography",
+      "packageJson": {
+        "name": "gatsby-plugin-typography",
+        "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
+        "version": "2.2.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typography",
+          "typography.js"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.1 || ^1.0.0-alpha.0"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.0 || ^1.0.0-alpha.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a225c0777bbe71d7b676d82bf6c254a7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
       "resolve": "/Users/jleatham/Documents/Programming/gatsby/gatsby-hello-world-v2",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "d41d8cd98f00b204e9800998ecf8427e",
+      "version": "e2cde4a466789950b2fb766dbd30a61e",
       "pluginOptions": {
         "plugins": []
       },
@@ -209,12 +291,32 @@
             "version": "^2.0.33"
           },
           {
+            "name": "gatsby-plugin-typography",
+            "version": "^2.2.1"
+          },
+          {
             "name": "react",
             "version": "^16.5.1"
           },
           {
             "name": "react-dom",
             "version": "^16.5.1"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.13"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.17"
+          },
+          {
+            "name": "typography-theme-bootstrap",
+            "version": "^0.16.7"
+          },
+          {
+            "name": "typography-theme-lawton",
+            "version": "^0.15.10"
           }
         ],
         "devDependencies": [],
@@ -225,7 +327,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7ad2468b3c4b2ff9b4d9208c42e174dd",
+        "contentDigest": "e40ca0df7a6890af9e0b5b28f743a198",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -255,7 +357,10 @@
           "gatsby",
           "gatsby-plugin"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -334,13 +439,33 @@
       "siteMetadata": {},
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-18T13:35:42.954Z",
+      "buildTime": "2018-11-18T17:14:17.041Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "35cbdc3d15ab65ad46f3b354b4023fa7",
+        "contentDigest": "49ff5e5eaaba91ef75a926098d8884a0",
         "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about-css-modules/": {
+      "jsonName": "about-css-modules-c4c",
+      "internalComponentName": "ComponentAboutCssModules",
+      "path": "/about-css-modules/",
+      "component": "/Users/jleatham/Documents/Programming/gatsby/gatsby-hello-world-v2/src/pages/about-css-modules.js",
+      "componentChunkName": "component---src-pages-about-css-modules-js",
+      "context": {},
+      "pluginCreator___NODE": "e4374581-5beb-5ae4-af8a-451004a652b3",
+      "pluginCreatorId": "e4374581-5beb-5ae4-af8a-451004a652b3",
+      "componentPath": "/Users/jleatham/Documents/Programming/gatsby/gatsby-hello-world-v2/src/pages/about-css-modules.js",
+      "id": "SitePage /about-css-modules/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d6a2ff503a20554f9126f270a3bcb510",
+        "description": "e4374581-5beb-5ae4-af8a-451004a652b3",
         "owner": "internal-data-bridge"
       }
     },
@@ -407,7 +532,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "96bcc6f7fcd7e841e06bd5c5166c5472"
+    "PLUGINS_HASH": "314ef18d64cf6d5c46af775201defd2a"
   },
   "componentDataDependencies": {
     "nodes": {},
@@ -418,7 +543,8 @@
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
     "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index-1-264": "838/path---index-1-264-711-NZuapzHg3X9TaN1iIixfv1W23E"
+    "index-1-264": "838/path---index-1-264-711-NZuapzHg3X9TaN1iIixfv1W23E",
+    "about-css-modules-c4c": "924/path---about-css-modules-c-4-c-850-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/jleatham/Documents/Programming/gatsby/gatsby-hello-world-v2/src/pages/about.js": {
@@ -432,6 +558,10 @@
     "/Users/jleatham/Documents/Programming/gatsby/gatsby-hello-world-v2/src/pages/index.js": {
       "query": "",
       "componentPath": "/Users/jleatham/Documents/Programming/gatsby/gatsby-hello-world-v2/src/pages/index.js"
+    },
+    "/Users/jleatham/Documents/Programming/gatsby/gatsby-hello-world-v2/src/pages/about-css-modules.js": {
+      "query": "",
+      "componentPath": "/Users/jleatham/Documents/Programming/gatsby/gatsby-hello-world-v2/src/pages/about-css-modules.js"
     }
   },
   "staticQueryComponents": {}

@@ -334,13 +334,53 @@
       "siteMetadata": {},
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-18T13:25:32.087Z",
+      "buildTime": "2018-11-18T13:35:42.954Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "6ff50e5528cb4f2a1e3fca1e0c5509f7",
+        "contentDigest": "35cbdc3d15ab65ad46f3b354b4023fa7",
         "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "jsonName": "about-f34",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/jleatham/Documents/Programming/gatsby/gatsby-hello-world-v2/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "e4374581-5beb-5ae4-af8a-451004a652b3",
+      "pluginCreatorId": "e4374581-5beb-5ae4-af8a-451004a652b3",
+      "componentPath": "/Users/jleatham/Documents/Programming/gatsby/gatsby-hello-world-v2/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a6d583608372fe1498bbef13c4fc2d94",
+        "description": "e4374581-5beb-5ae4-af8a-451004a652b3",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /contact/": {
+      "jsonName": "contact-26a",
+      "internalComponentName": "ComponentContact",
+      "path": "/contact/",
+      "component": "/Users/jleatham/Documents/Programming/gatsby/gatsby-hello-world-v2/src/pages/contact.js",
+      "componentChunkName": "component---src-pages-contact-js",
+      "context": {},
+      "pluginCreator___NODE": "e4374581-5beb-5ae4-af8a-451004a652b3",
+      "pluginCreatorId": "e4374581-5beb-5ae4-af8a-451004a652b3",
+      "componentPath": "/Users/jleatham/Documents/Programming/gatsby/gatsby-hello-world-v2/src/pages/contact.js",
+      "id": "SitePage /contact/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "6f669a5fc38423e57bced672022d8381",
+        "description": "e4374581-5beb-5ae4-af8a-451004a652b3",
         "owner": "internal-data-bridge"
       }
     },
@@ -375,9 +415,20 @@
   },
   "jsonDataPaths": {
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E"
+    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
+    "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index-1-264": "838/path---index-1-264-711-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
+    "/Users/jleatham/Documents/Programming/gatsby/gatsby-hello-world-v2/src/pages/about.js": {
+      "query": "",
+      "componentPath": "/Users/jleatham/Documents/Programming/gatsby/gatsby-hello-world-v2/src/pages/about.js"
+    },
+    "/Users/jleatham/Documents/Programming/gatsby/gatsby-hello-world-v2/src/pages/contact.js": {
+      "query": "",
+      "componentPath": "/Users/jleatham/Documents/Programming/gatsby/gatsby-hello-world-v2/src/pages/contact.js"
+    },
     "/Users/jleatham/Documents/Programming/gatsby/gatsby-hello-world-v2/src/pages/index.js": {
       "query": "",
       "componentPath": "/Users/jleatham/Documents/Programming/gatsby/gatsby-hello-world-v2/src/pages/index.js"
